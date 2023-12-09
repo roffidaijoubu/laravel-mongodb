@@ -169,7 +169,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\Filament\DashboardPanelProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Spatie\Permission\PermissionServiceProvider::class,
+        // Spatie\Permission\PermissionServiceProvider::class,
     ])->toArray(),
 
     /*
