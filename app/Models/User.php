@@ -44,10 +44,5 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
     protected $dates = ['email_verified_at'];
 }
